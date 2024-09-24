@@ -12,7 +12,7 @@
   --white-color: #fff;
   --body-color: #0f0f10;
   --container-color: #181a1b;
-  --text-gradient: linear-gradient(#3b3e40, #141515);
+  --text-gradient: linear-gradient(#878f94, #292b2b);
   --scroll-thumb-color: #27292a;
   --scroll-thumb-color-alt: #313335;
   /* Font and Typography */
@@ -188,8 +188,6 @@ img {
   font-size: var(--h2-font-size);
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
-  background: var(--text-gradient);
-  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.4s;
@@ -223,7 +221,7 @@ img {
 
 /* Active link */
 .active-link {
-  background: var(--white-color);
+  background: #ff6701;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -231,9 +229,9 @@ img {
 
 /*=============== HOME ===============*/
 .home_img {
-  width: 250px;
+  width: 450px;
   position: absolute;
-  top: -256px;
+  top: -300px;
   right: 24px;
 }
 
@@ -250,7 +248,7 @@ img {
   top: -64px;
   left: 16px;
   line-height: 96px;
-  font-size: var(--biggest-font-size);
+  font-size: var(--bigger-font-size);
   background: var(--text-gradient);
   color: transparent;
   -webkit-background-clip: text;
@@ -588,7 +586,7 @@ img {
   }
   .home_title {
     top: -64px;
-    font-size: var(--bigger-font-size);
+    font-size: var(--big-font-size);
   }
   .home_data {
     padding-top: 16px;
