@@ -31,9 +31,9 @@ To run this project locally:
 
 ## Screenshots
 
-![Alt Text](img/JBL%20homepage.PNG)
-![Alt Text](img/JBL%20specs.PNG)
-![Alt Text](img/JBL%20products.PNG)
+![Screenshot](img/JBL%20homepage.PNG)
+![Screenshot](img/JBL%20specs.PNG)
+![Screenshot](img/JBL%20products.PNG)
 
 ## Contributions
 
