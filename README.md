@@ -1,6 +1,6 @@
 # Headphones Website
 
-This is a responsive website designed for a headphone brand, showcasing various headphone models with their features, specifications, and prices.
+This is a responsive website designed for the JBL headphone brand, showcasing various headphone models with their features, specifications, and prices.
 The project is built using HTML, CSS, and JavaScript.
 
 ## Features
