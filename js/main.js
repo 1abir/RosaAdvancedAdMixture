@@ -30,16 +30,18 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 function scrollHeader() {
   const header = document.getElementById("header");
 
+  // When scroll is greater than 50 viewport height, add the scroll-header class to header
   this.scrollY >= 50
     ? header.classList.add("scroll-header")
     : header.classList.remove("scroll-header");
 }
 window.addEventListener("scroll", scrollHeader);
 
-// ================== SHOW SCROLL HEADER ================== //
+// ================== SHOW SCROLL UP ================= //
 function scrollUp() {
   const scrollUp = document.getElementById("scroll-up");
 
+  // When scroll is greater than 200 viewport height, add the scroll-up class
   this.scrollY >= 200
     ? scrollUp.classList.add("show-scroll")
     : scrollUp.classList.remove("show-scroll");

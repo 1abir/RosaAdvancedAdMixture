@@ -15,7 +15,8 @@ The project is built using HTML, CSS, and JavaScript.
 
 - HTML5: Structuring the content of the website.
 - CSS3: Styling the website and ensuring responsiveness.
-- JavaScript: Adding interactivity to the website. Dynamic content update. Smooth scrolling and other UI enhancements
+- JavaScript: Adding interactivity to the website.
+- Dynamic content update. Smooth scrolling and other UI enhancements
 
 ## Installation
 
@@ -31,9 +32,10 @@ To run this project locally:
 
 ## Screenshots
 
-![Alt Text](img/JBL%20homepage.PNG)
-![Alt Text](img/JBL%20specs.PNG)
-![Alt Text](img/JBL%20products.PNG)
+![Alt Text](img/homepage.png)
+![Alt Text](img/specs%20&%20case.png)
+![Alt Text](img/models.png)
+![Alt Text](img/footer.png)
 
 ## Contributions
 

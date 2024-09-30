@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 45px;
+  --header-height: 48px;
   /* Colors */
   --black-color: #0a0a0b;
   --black-color-alt: #141515;
@@ -17,7 +17,7 @@
   --scroll-thumb-color-alt: #313335;
   /* Font and Typography */
   --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 75px;
+  --biggest-font-size: 80px;
   --bigger-font-size: 56px;
   --big-font-size: 40px;
   --h2-font-size: 20px;
@@ -159,7 +159,7 @@ img {
 }
 
 .nav_toggle {
-  font-size: 18px;
+  font-size: 19px;
   color: var(--white-color);
   cursor: pointer;
 }
@@ -188,6 +188,8 @@ img {
   font-size: var(--h2-font-size);
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
+  background: var(--text-gradient);
+  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.4s;
@@ -229,9 +231,9 @@ img {
 
 /*=============== HOME ===============*/
 .home_img {
-  width: 450px;
+  width: 250px;
   position: absolute;
-  top: -300px;
+  top: -256px;
   right: 24px;
 }
 
@@ -244,26 +246,21 @@ img {
 }
 
 .home_title {
-  position: absolute;
-  top: -64px;
-  left: 16px;
-  line-height: 96px;
-  font-size: var(--bigger-font-size);
+  font-size: var(--biggest-font-size);
   background: var(--text-gradient);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  position: absolute;
+  top: -64px;
+  left: 16px;
+  line-height: 96px;
 }
 
 .home_subtitle {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-2-5);
-}
-
-.home_title-description {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  margin-top: var(--mb-2-5);
 }
 
 .home_description {
@@ -292,7 +289,7 @@ img {
 }
 
 .button_icon {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .button--flex {
@@ -328,7 +325,7 @@ img {
 }
 
 .specs_icon {
-  font-size: 18px;
+  font-size: 19px;
   color: var(--white-color);
 }
 
@@ -343,14 +340,14 @@ img {
 
 .specs_data:nth-child(1),
 .specs_data:nth-child(4) {
-  margin-left: 24px;
+  margin-left: var(--mb-1-5);
 }
 
 .specs_img {
   width: 250px;
   position: absolute;
   top: 32px;
-  right: 64px;
+  right: -64px;
 }
 
 /*=============== CASE ===============*/
@@ -540,14 +537,15 @@ img {
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
-.scrollup:hover {
-  background-color: var(--black-color);
-  opacity: 1;
-}
 
 .scrollup_icon {
   color: var(--white-color);
   font-size: 22px;
+}
+
+.scrollup:hover {
+  background-color: var(--black-color);
+  opacity: 1;
 }
 
 /* Show Scroll Up */
@@ -577,6 +575,7 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+
   .section_title {
     font-size: var(--big-font-size);
   }
@@ -586,7 +585,7 @@ img {
   }
   .home_title {
     top: -64px;
-    font-size: var(--big-font-size);
+    font-size: var(--bigger-font-size);
   }
   .home_data {
     padding-top: 16px;
@@ -594,9 +593,11 @@ img {
   .home_description {
     font-size: var(--small-font-size);
   }
+
   .specs_img {
     width: 200px;
   }
+
   .case_container {
     grid-template-columns: 0.6fr 1fr;
   }
@@ -608,6 +609,7 @@ img {
   .case_data {
     padding: 0;
   }
+
   .products_container {
     grid-template-columns: 142px;
     justify-content: center;
@@ -626,6 +628,7 @@ img {
     top: -112px;
     left: 0;
   }
+
   .specs_img {
     position: initial;
   }
@@ -634,6 +637,7 @@ img {
     justify-items: center;
     align-items: center;
   }
+
   .case_img {
     position: initial;
   }
@@ -646,6 +650,7 @@ img {
     align-items: center;
     column-gap: 32px;
   }
+
   .discount_img {
     position: initial;
   }
@@ -664,9 +669,11 @@ img {
   body {
     margin: 0;
   }
+
   .section {
-    padding: 96px 0 2px;
+    padding: 96px 0 32px;
   }
+
   .nav {
     height: calc(var(--header-height) + 24px);
   }
@@ -685,6 +692,7 @@ img {
   .nav_close {
     display: none;
   }
+
   .home_container {
     position: relative;
     grid-template-columns: repeat(2, 1fr);
@@ -696,9 +704,11 @@ img {
   .home_data {
     padding-top: 128px;
   }
+
   .specs_img {
     width: 300px;
   }
+
   .case_container {
     column-gap: 80px;
   }
@@ -721,6 +731,7 @@ img {
   .discount_description {
     margin-bottom: var(--mb-2);
   }
+
   .products_container {
     grid-template-columns: repeat(3, 162px);
     gap: 96px 48px;
