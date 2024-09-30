@@ -15,7 +15,13 @@ The project is built using HTML, CSS, and JavaScript.
 
 - HTML5: Structuring the content of the website.
 - CSS3: Styling the website and ensuring responsiveness.
-- JavaScript: Adding interactivity to the website. Dynamic content update. Smooth scrolling and other UI enhancements
+> -  Flexbox and Grid Layout
+> -  Media Queries for responsiveness
+> -  Transitions and animations
+- JavaScript: Adding interactivity to the website.
+> - Form validation
+> - Dynamic content update
+> - Smooth scrolling and other UI enhancements
 
 ## Installation
 
