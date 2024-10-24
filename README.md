@@ -46,4 +46,4 @@ This project is licensed under the MIT License.
 
 ### Author
 
-Designed & developed by [Your Name](https://github.com/Luk30lende). Feel free to follow me on GitHub for more projects!
+Designed & developed by [Luke Olende](https://github.com/Luk30lende). Feel free to follow me on GitHub for more projects!
