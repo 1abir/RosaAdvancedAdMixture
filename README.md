@@ -22,7 +22,7 @@ The project is built using HTML, CSS, and JavaScript.
 To run this project locally:
 
 1. Clone the repository:
-   `git clone https://github.com/LukeOlende/Headphones-Web.git`
+   `git clone https://github.com/Luk30lende/Headphones-Web.git`
 
 2. Navigate to the project directory:
    `cd Headphones-Web`
@@ -43,3 +43,7 @@ Feel free to submit issues or pull requests if you would like to contribute to t
 ## License
 
 This project is licensed under the MIT License.
+
+### Author
+
+Designed & developed by [Your Name](https://github.com/Luk30lende). Feel free to follow me on GitHub for more projects!
