@@ -3,6 +3,13 @@
 This is a responsive website designed for the JBL headphone brand, showcasing various headphone models with their features, specifications, and prices.
 The project is built using HTML, CSS, and JavaScript.
 
+## Screenshots
+
+![Alt Text](img/homepage.png)
+![Alt Text](img/specs%20&%20case.png)
+![Alt Text](img/models.png)
+![Alt Text](img/footer.png)
+
 ## Features
 
 - Responsive Design: The website is fully responsive, ensuring optimal display on devices of all sizes, including desktops, tablets, and mobile phones.
@@ -29,12 +36,6 @@ To run this project locally:
 
 3. Open index.html in your browser
 
-## Screenshots
-
-![Alt Text](img/homepage.png)
-![Alt Text](img/specs%20&%20case.png)
-![Alt Text](img/models.png)
-![Alt Text](img/footer.png)
 
 ## Contributions
 
