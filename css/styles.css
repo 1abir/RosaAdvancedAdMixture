@@ -236,7 +236,7 @@ img {
 }
 
 .home_data {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .home_header {
@@ -627,7 +627,7 @@ img {
     grid-template-columns: 0.8fr 1fr;
   }
   .home_data {
-    padding-top: 32px;
+    padding-top: 20px;
   }
   .home_img {
     top: 112px;
@@ -747,7 +747,7 @@ img {
     left: 64px;
   }
   .home_data {
-    padding-top: 128px;
+    padding-top: 20px;
   }
 
   .specs_img {
@@ -801,8 +801,9 @@ img {
     margin-right: auto;
   }
   .home_img {
-    width: 300px;
-    top: 240px;
+    max-width: 350px;
+    flex-wrap: wrap;
+    top: 20px;
   }
   .home_title {
     /* top: -80px; */
