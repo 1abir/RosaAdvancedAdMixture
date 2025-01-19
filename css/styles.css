@@ -43,9 +43,9 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 120px;
-    --bigger-font-size: 72px;
-    --big-font-size: 64px;
+    --biggest-font-size: 50px;
+    --bigger-font-size: 36px;
+    --big-font-size: 32px;
     --h2-font-size: 24px;
     --h3-font-size: 20px;
     --normal-font-size: 16px;
@@ -233,8 +233,8 @@ img {
 .home_img {
   width: 250px;
   position: absolute;
-  top: -256px;
-  right: 24px;
+  top: 200px;
+  left: 100px;
 }
 
 .home_data {
@@ -581,7 +581,7 @@ img {
   }
   .home_img {
     width: 200px;
-    top: -208px;
+    top: 50px;
   }
   .home_title {
     top: -64px;
@@ -625,7 +625,7 @@ img {
     padding-top: 32px;
   }
   .home_img {
-    top: -112px;
+    top: 112px;
     left: 0;
   }
 
@@ -665,6 +665,45 @@ img {
   }
 }
 
+/* .contact-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+.contact-section h2 {
+  text-align: center;
+  color: #007bff;
+}
+.contact-section p {
+  text-align: center;
+  margin: 10px 0;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+.contact-info i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+@media (min-width: 600px) {
+  .contact-info {
+      flex-direction: row;
+      justify-content: space-around;
+  }
+} */
+
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
@@ -698,7 +737,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .home_img {
-    top: -144px;
+    top: 144px;
     left: 64px;
   }
   .home_data {
@@ -757,7 +796,7 @@ img {
   }
   .home_img {
     width: 300px;
-    top: -240px;
+    top: 240px;
   }
   .home_title {
     top: -80px;
