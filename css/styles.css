@@ -251,6 +251,7 @@ img {
   background-clip: text;
   position: relative;
   align-self: center;
+  justify-self: center;
   line-height: 96px;
 }
 
